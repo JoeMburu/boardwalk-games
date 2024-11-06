@@ -36,3 +36,12 @@ h3 {
     border: 2px solid red;
 
 }
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
