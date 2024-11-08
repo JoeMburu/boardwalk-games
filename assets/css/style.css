@@ -76,8 +76,6 @@ h2 {
 }
 
 
-
-
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -114,6 +112,54 @@ h2 {
     border: none;
 } 
 
+/* Events section */
+#events {
+   
+}
+
+#events p {
+    font-size: 102%;
+}
+
+#events table {
+    font-size: 80%;
+}
+
+
+/* #events p {
+    width: 90%;
+    border: 1px solid red;
+    text-align: 0 auto;
+}
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#events .table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#events .table-dark {
+    width: 90%;
+    margin-bottom: 2rem;
+    
+}
+
+#events .table-dark * {
+    color: #000;
+    
+} */
+
+.btn-student-discount {
+    display: inline-block;
+    background-color: var(--highlight-color);
+    color: #fff;
+    border-radius: 0;
+}
+
 /* Footer / contact */
 #contact {
     background-color: var(--primary-color);
@@ -145,7 +191,8 @@ h2 {
     color: var(--secondary-color);    
 }
 
-#contact .table-dark * {
+#contact .table-dark *,
+#events .table-dark * {
     background-color: transparent;
 }
 
@@ -156,6 +203,15 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
        min-height: 191px;
+    }
+
+    /* Events */
+    #events p {
+        font-size: 100%;
+    }
+    
+    #events table {
+        font-size: 100%;
     }
 }
 
@@ -173,6 +229,15 @@ h2 {
     #services .card-body {
        min-height: 220px;
     }
+
+     /* Events */
+     #events p {
+        font-size: 100%;
+    }
+    
+    #events table {
+        font-size: 100%;
+    }
 }
 
 /* xxl devices (tlarger desktops, 1400px and up) */
@@ -180,5 +245,14 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
        min-height: 195px;
+    }
+
+     /* Events */
+     #events p {
+        font-size: 100%;
+    }
+    
+    #events table {
+        font-size: 100%;
     }
 }
